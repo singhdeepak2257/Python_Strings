@@ -1,0 +1,13 @@
+#In Python, strings are indeed sequences of Unicode characters, but they are not arrays of bytes.
+
+# Unicode string
+unicode_string = "Hello, World!"
+
+# Bytes representation
+bytes_representation = b"Hello, World!"
+
+# Unicode string can handle characters from various languages
+unicode_string_with_unicode_characters = "你好，世界！"
+
+# Bytes representation can be used for binary data
+binary_data = b'\x48\x65\x6c\x6c\x6f\x2c\x20\x57\x6f\x72\x6c\x64\x21'
